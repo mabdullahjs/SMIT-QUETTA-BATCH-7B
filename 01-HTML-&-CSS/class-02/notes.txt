@@ -1,0 +1,16 @@
+there are three type of list.
+
+ul unordered list
+ol ordered list
+dl defination list
+
+
+li list items
+
+dl defination list
+dt defination title
+dd defination des
+
+attributes tag ko extra information deta hain. attributes hamesha opening tag ma ata hain.
+
+ctrl + space => suggestions
