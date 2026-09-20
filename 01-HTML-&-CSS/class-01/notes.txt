@@ -1,0 +1,32 @@
+HTML stands for hyper text markup language
+
+Kisi bhi website ka structure bnana ka liya bum html ka istemaal krta hain.
+
+html ka undar jitna bhi kaam hota h wo saara tags ki form ma hota ha.
+
+tags 3 qasim ka hota ha
+
+opening tag  <h1>
+closing tag  </h1>
+self closing tag <br/>
+
+shift + 1 = ! for code.
+
+Jitna bhi kaam hoga wo saara body ka undar hoga
+
+<!DOCTYPE html> iska matlb hota ha browser ko ya btana ka appko jo document mila ha wo html 5 pa likha hua ha.
+
+Headings: total 6 types 
+H1,H2,H3,H4,H5,H6
+p: Paragraph
+
+
+
+<h1> opening tag
+</h1> closing
+
+jo tag open hoga wo close bhi hoga.
+
+<h1>Hello world</h1> => element
+
+tag === markup
