@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Hello world</h1>
+
+    <fieldset>
+        <legend>User personal information</legend>
+        <form>
+            <label for="fullname">Enter your full name</label> <br>
+            <input type="text" id="fullname" required /> <br><br>
+
+            <label for="email">Enter your email</label> <br>
+            <input type="email" id="email" required> <br><br>
+
+            <label for="age">Enter your age</label> <br>
+            <input type="number" id="age" required min="20" max="60"> <br><br>
+
+            <label for="password">Enter your password</label> <br>
+            <input type="password" id="password" required> <br><br>
+
+            <label for="confirm-password">confirm your password</label> <br>
+            <input type="password" id="confirm-password" required> <br><br>
+
+            <label>Enter your gender</label> <br>
+            <input type="radio" id="male" name="gender">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender">
+            <label for="female">Female</label>
+            <input type="radio" id="others" name="gender">
+            <label for="others">Others</label> <br><br>
+
+            <label>Enter your gender</label> <br>
+            <input type="checkbox" id="malec" >
+            <label for="malec">Male</label>
+            <input type="checkbox" id="femalec" >
+            <label for="femalec">Female</label>
+            <input type="checkbox" id="othersc" >
+            <label for="othersc">Others</label> <br><br>
+
+            <label for="dob">Enter yor date of birth</label> <br>
+            <input type="date" id="dob"> <br><br>
+
+            <label for="province">province</label> <br>
+            <select id="province">
+                <option value="sindh">sindh</option>
+                <option value="punjab">punjab</option>
+                <option value="balochistan" selected>balochistan</option>
+                <option value="kpk">kpk</option>
+            </select> <br><br>
+
+            <label for="address">Enter your address</label> <br>
+            <textarea id="address" rows="3" cols="30"></textarea> <br><br>
+
+            <!-- <input type="submit"> -->
+            <button type="submit">submit</button>
+        </form>
+    </fieldset>
+
+
+</body>
+
+</html>

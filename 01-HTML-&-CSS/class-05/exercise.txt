@@ -1,0 +1,89 @@
+
+ ### 1\. Student Registration Form
+
+ Create a form for registering a student.
+
+ - Full Name
+- Email Address
+- Age
+- Gender
+- Date of Birth
+- Select Course
+- Select Education Level
+- Skills/Interests
+- Address
+- Upload Student Photo
+- Submit Button
+
+ ### 2\. Travel Booking Form
+
+ Create a form for booking a travel trip.
+
+ - Passenger Name
+- Email
+- Phone Number
+- Number of Passengers
+- Departure City
+- Destination
+- Travel Date
+- Travel Class: Economy / Business
+- Meal Preference
+- Additional Services
+- Special Requests
+- Upload Passport/ID
+- Book Now Button
+
+ ### 3\. Job Application Form
+
+ Create a form for applying for a job.
+
+ - Full Name
+- Email
+- Phone Number
+- Age
+- Gender
+- Position Applying For
+- Education Level
+- Years of Experience
+- Skills
+- Work Preference: Remote / On-site / Hybrid
+- Cover Letter
+- Upload Resume
+- Apply Button
+
+ ### 4\. Hotel Reservation Form
+
+ Create a form for reserving a hotel room.
+
+ - Guest Name
+- Email
+- Phone Number
+- Number of Guests
+- Check-in Date
+- Check-out Date
+- Room Type
+- Bed Preference
+- Additional Facilities
+- Payment Method
+- Special Requests
+- Upload ID
+- Reserve Room Button
+
+ ### 5\. Event Registration Form
+
+ Create a form for registering for an event.
+
+ - Full Name
+- Email
+- Phone Number
+- Age
+- Gender
+- Event Type
+- Attendance Date
+- Ticket Type
+- Food Preference
+- Interests
+- Do you need accommodation?
+- Comments/Message
+- Upload ID/Document
+- Register Button
