@@ -1,0 +1,128 @@
+/* h1 {
+    background-color: red;
+    color: white;
+} */
+
+/* universal selector */
+/* 
+* {
+   color: red; 
+} */
+
+
+
+/* type selector */
+
+/* h1 , h2 , p {
+    color: red;
+} */
+
+
+/* id selector */
+
+/* #heading-one{
+    color: red;
+}
+
+#para-one{
+    color: blue;
+} */
+
+
+/* class selector */
+
+/* .heading {
+    color: purple;
+} */
+
+
+/* child selector */
+
+/* .parent > p {
+    color: red;
+} */
+
+
+/* descandant selector */
+
+/* .parent p {
+    color: red;
+} */
+
+
+
+/* adjacent sibling */
+
+/* h2 + p {
+    color: red;
+} */
+
+/* general sibling */
+
+/* h2 ~ p {
+    color: red;
+}
+
+#data-one{
+    color:rgb(169, 240, 169);
+    color: #111;
+} */
+
+/* .para{
+    color: goldenrod;
+    background-color: black;
+    border: 5px solid goldenrod;
+} */
+
+
+
+/* universal selector */
+/* * {
+    color: red;
+} */
+/* type selector */
+
+/* h1 , h2 {
+    color: red;
+} */
+
+
+/* class selector */
+
+/* .heading {
+    color: red;
+} */
+
+/* id selector */
+
+/* #para-one{
+    color: red;
+}
+#head-one{ 
+    color: gold;
+} */
+
+/* child selector */
+
+/* .parent > p {
+    color: red;
+} */
+
+/* descendant selector */
+/* .parent p {
+    color: red;
+} */
+
+/* adjacent sibling selector */
+
+/* 
+h2 + p {
+    color: red;
+} */
+
+
+/* general sibling selector */
+
+/* h2~p {
+    color: red;
+} */
