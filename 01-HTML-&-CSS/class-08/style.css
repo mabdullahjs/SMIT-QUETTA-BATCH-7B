@@ -1,21 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
 
 @font-face {
-    font-family: isometra;
-    src: url("./assets/fonts/isometra/Isometra-Regular.ttf");
+  font-family: isometra;
+  src: url("./assets/fonts/isometra/Isometra-Regular.ttf");
 }
 
 @font-face {
-    font-family: space-grotesk;
-    src: url("./assets/fonts/space-grotesk/SpaceGrotesk-VariableFont_wght.ttf");
+  font-family: space-grotesk;
+  src: url("./assets/fonts/space-grotesk/SpaceGrotesk-VariableFont_wght.ttf");
 }
 
 body {
-    font-family: space-grotesk;
+  font-family: space-grotesk;
 }
 
 h1 {
-    font-family: isometra;
+  font-family: isometra;
 }
 
 /* units
@@ -36,18 +36,17 @@ vh
 */
 
 .parent {
-    border: 1px solid black;
-    height: 100px;
+  border: 1px solid black;
+  height: 100px;
 
-    width: 50vw;
+  width: 50vw;
 }
 
 .children {
-    border: 1px solid red;
-    height: 100px;
-    width: 80vw;
+  border: 1px solid red;
+  height: 100px;
+  width: 80vw;
 }
-
 
 /* h1 === 32px */
 /* p === 16px */
@@ -55,28 +54,67 @@ vh
 /* 1rem == 16px */
 /* 1rem === 10px */
 
-
 /* 1 rem === 16px */
 /* 1rem === 10px 6.25*10 */
 /* 62.5% */
 
-
 /* 1rem === 16px === 100% */
 /* 1rem === 10px === 62.5% */
 
-html { 
-    font-size: 62.5%;
+html {
+  font-size: 62.5%;
 }
 
 h1 {
-    font-size: 3.2rem;
+  font-size: 3.2rem;
+  text-align: start;
+
+  color: #a7dd3c;
+  background: #ffffff;
+  text-shadow:
+    2px 0 0px #800040,
+    3px 2px 0px rgba(77, 0, 38, 0.5),
+    3px 0 3px #ff002b,
+    5px 0 3px #800015,
+    6px 2px 3px rgba(77, 0, 13, 0.5),
+    6px 0 9px #ff5500,
+    8px 0 9px #802a00,
+    9px 2px 9px rgba(77, 25, 0, 0.5),
+    9px 0 18px #ffd500,
+    11px 0 18px #806a00,
+    12px 2px 18px rgba(77, 66, 0, 0.5),
+    12px 0 30px #d4ff00,
+    14px 0 30px #6a8000,
+    15px 2px 30px rgba(64, 77, 0, 0.5),
+    15px 0 45px #80ff00,
+    17px 0 45px #408000,
+    17px 2px 45px rgba(38, 77, 0, 0.5);
 }
+
+/* https://html-css-js.com/css/generator/text-shadow/ */
 
 p {
-    font-size: 1.6rem;
+  font-size: 1.6rem;
+  text-align: justify;
+  text-indent: 50px;
+  /* text-transform: capitalize;
+    text-decoration: line-through;
+    line-height: 30px;
+    letter-spacing: 5px;
+    word-spacing: 20px; */
 }
-
 
 /* border , radius px */
 /* width % */
 /* fontsize rem */
+
+
+
+p:first-letter {
+    font-size: 5rem;
+    color: red;
+}
+
+p:first-line {
+    color: #6a8000;
+}
