@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+@font-face {
+    font-family: isometra;
+    src: url("./assets/fonts/isometra/Isometra-Regular.ttf");
+}
+
+@font-face {
+    font-family: space-grotesk;
+    src: url("./assets/fonts/space-grotesk/SpaceGrotesk-VariableFont_wght.ttf");
+}
+
+body {
+    font-family: space-grotesk;
+}
+
+h1 {
+    font-family: isometra;
+}
+
+/* units
+
+relative unit
+%
+rem
+
+
+absolute
+px
+vw
+vh
+
+
+
+
+*/
+
+.parent {
+    border: 1px solid black;
+    height: 100px;
+
+    width: 50vw;
+}
+
+.children {
+    border: 1px solid red;
+    height: 100px;
+    width: 80vw;
+}
+
+
+/* h1 === 32px */
+/* p === 16px */
+
+/* 1rem == 16px */
+/* 1rem === 10px */
+
+
+/* 1 rem === 16px */
+/* 1rem === 10px 6.25*10 */
+/* 62.5% */
+
+
+/* 1rem === 16px === 100% */
+/* 1rem === 10px === 62.5% */
+
+html { 
+    font-size: 62.5%;
+}
+
+h1 {
+    font-size: 3.2rem;
+}
+
+p {
+    font-size: 1.6rem;
+}
+
+
+/* border , radius px */
+/* width % */
+/* fontsize rem */
