@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* positions
+static
+relative
+absolute
+fixed
+sticky
+
+
+*/
+
+.container {
+    height: 200vh;
+    width: 300px;
+    border: 1px solid black;
+
+    margin: 40px auto;
+    margin-bottom: 400vh;
+}
+
+.children {
+    width: 100px;
+    height: 100px;
+}
+
+/* top bottom left right */
+
+
+#red{
+    background-color: red;
+
+    position: relative;
+    top: 40px;
+    left: 40px;
+    
+}
+#green{
+    background-color: green;
+
+    position: absolute;
+    left: 0px;
+    bottom: 0;
+    z-index: 1;
+}
+#blue{
+    background-color: blue;
+
+    position: fixed;
+    top: 50px;
+    right: 0;
+}
+
+
+#orange {
+    background-color: palevioletred;
+
+    position: sticky;
+    top: 200px;
+}
