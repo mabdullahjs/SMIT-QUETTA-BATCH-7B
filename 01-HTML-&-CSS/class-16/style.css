@@ -1,0 +1,76 @@
+:root {
+    --red: #ed1c24;
+    --white: #ffffff;
+    --black: #000000;
+    --green: #28a745;
+    --grey: #adabad;
+
+}
+
+
+
+@font-face {
+    font-family: futurak;
+    src: url("./assets/fonts/futurak/FUTURAK\ \(1\).TTF");
+}
+@font-face {
+    font-family: inter;
+    src: url("./assets/fonts/inter/inter-normal.ttf");
+}
+@font-face {
+    font-family: apercu;
+    src: url("./assets/fonts/apercu/Apercu\ regular.otf");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: var(--black);
+    color: var(--white);
+    font-family: inter;
+}
+
+/* navbar started */
+.navbar-logo {
+    width: 165px;
+}
+nav > a {
+    color: var(--white);
+    text-decoration: none;
+    font-size: 1.6rem;
+}
+.desktop-nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.desktop-nav > nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.franchise-btn{
+    background-color: transparent;
+    border: 1px solid var(--white);
+    color: var(--white);
+    padding: 12px 16.5px;
+    font-size: 1.4rem;
+    border-radius: 20px;
+}
+.order-btn{
+     background-color: var(--red);
+    border: none;
+    color: var(--white);
+    padding: 12px 16.5px;
+    font-size: 1.4rem;
+    border-radius: 20px;
+}
+/* navbar ended */
